@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
 			photo: "images/GS7vNgZXoAANkQn.jfif",
 		},
 		{
-			name: "Jane Smith",
-			lastSeen: "Kisumu Central",
-			contact: "0723456789",
-			photo: "images/woman.png",
+			name: "Clinton Ouma ",
+			lastSeen: "Industrial Area Police Station",
+			contact: "DM ME ON twitter",
+			photo: "images/Clinton_Ouma ",
 		},
 		// Add more missing persons here
 	];
