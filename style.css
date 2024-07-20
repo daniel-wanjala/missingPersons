@@ -30,22 +30,25 @@ header h1 {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     color: #ff0000;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 .alert {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
     border: 2px solid #ff0000;
     border-radius: 8px;
     padding: 1.5rem;
     margin: 1rem auto;
     max-width: 800px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
 }
 
 .alert h2 {
     color: #ff0000;
     margin-top: 0;
     font-size: 1.8rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
 .alert p {
@@ -85,6 +88,7 @@ a i:hover {
 
 main {
     padding: 2rem;
+    padding-bottom: 4rem; /* Adjust based on your footer height */
 }
 
 #missing-persons {
@@ -123,10 +127,34 @@ main {
 }
 
 footer {
-    text-align: center;
-    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-color: #444;
     color: #fff;
-    width: 100%;
-    display: none; /* Initially hidden */
+    text-align: center;
+    padding: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+}
+
+footer.visible {
+    opacity: 1;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .alert {
+        margin: 1rem;
+    }
+
+    .missing-person {
+        width: 100%;
+    }
 }
