@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+}
+
+header .logo {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    position: absolute;
+    top: 10px; /* Adjust to position the logo correctly */
+    left: 10px; /* Adjust to position the logo correctly */
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #ff0000;
+}
+
+header p a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+header p a:hover {
+    text-decoration: underline;
+}
+
+a i {
+    font-size: 2rem;
+    color: #1DA1F2;
+    margin-left: 1rem;
+}
+
+a i:hover {
+    color: #0d8dd1;
+}
+
+main {
+    padding: 2rem;
+}
+
+#missing-persons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.missing-person {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.missing-person img {
+    width: 100%;
+    height: auto;
+}
+
+.missing-person-details {
+    padding: 1rem;
+}
+
+.missing-person-details h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+.missing-person-details p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #444;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
