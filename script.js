@@ -7,6 +7,12 @@ document.addEventListener("DOMContentLoaded", function () {
 			photo: "images/GS7vNgZXoAANkQn.jfif",
 		},
 		{
+			name: "Shellmith Nyawira Njiru",
+			lastSeen: "During Demos",
+			contact: "0790938638 / 079258064",
+			photo: "images/Shell.png",
+		},
+		{
 			name: "Clinton Ouma ",
 			lastSeen: "Industrial Area Police Station",
 			contact: "DM ME ON twitter",
