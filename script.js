@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
 	const missingPersons = [
 		{
-			name: "John Doe",
-			lastSeen: "Nairobi CBD",
-			contact: "0712345678",
-			photo: "images/man.png",
+			name: "Emmanuel Kamau Mukuria",
+			lastSeen: "June 25th during Nation Demos",
+			contact: "0797765250 / 0711644067",
+			photo: "images/GS7vNgZXoAANkQn.jfif",
 		},
 		{
 			name: "Jane Smith",
@@ -44,5 +44,20 @@ document.addEventListener("DOMContentLoaded", function () {
 		personDiv.appendChild(personDetails);
 
 		missingPersonsSection.appendChild(personDiv);
+	});
+
+	// Footer visibility toggle
+	const footer = document.getElementById("footer");
+
+	window.addEventListener("scroll", function () {
+		const scrollHeight = document.documentElement.scrollHeight;
+		const scrollTop = document.documentElement.scrollTop;
+		const clientHeight = document.documentElement.clientHeight;
+
+		if (scrollTop + clientHeight >= scrollHeight - 5) {
+			footer.style.display = "block";
+		} else {
+			footer.style.display = "none";
+		}
 	});
 });
