@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			name: "Clinton Ouma ",
 			lastSeen: "Industrial Area Police Station",
 			contact: "DM ME ON twitter",
-			photo: "images/Clinton_Ouma ",
+			photo: "images/Clinton_Ouma.jfif ",
 		},
 		// Add more missing persons here
 	];
