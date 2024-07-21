@@ -6,12 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			contact: "0797765250 / 0711644067",
 			photo: "images/GS7vNgZXoAANkQn.jfif",
 		},
-		{
-			name: "Shellmith Nyawira Njiru",
-			lastSeen: "During Demos",
-			contact: "0720899556",
-			photo: "images/Shell.png",
-		},
+	
 		{
 			name: "Daniel Kabusho",
 			lastSeen: "Kenyatta Road (Thika Road) on June 18th. Outside Icon Hotel.",
